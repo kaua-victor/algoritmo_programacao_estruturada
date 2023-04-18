@@ -1,3 +1,5 @@
+#Programa para saber se um numero e´ primo
+
 numero = int(input('Digite um número: '))
 
 if numero <=1:
