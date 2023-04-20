@@ -1,3 +1,5 @@
+#Programa que ler 30 numeros,calcula e mostra a soma deles usando o while
+
 numeros = 30
 cont = 0
 soma = 0
