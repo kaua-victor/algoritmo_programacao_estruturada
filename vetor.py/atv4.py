@@ -4,8 +4,14 @@ vetor = [None]*QTDE
 for index in range(QTDE):
     vetor[index] = int(input('Digite um valor: '))
 
-    if index%2==0:
-        print(f'Numeros em indices pares: {vetor[index]}')
+print('Elementos em posiçoes pares:')
+for index in range(QTDE):
 
-    elif index%2!=0:
-        print(f'Numeros em indices impares: {vetor[index]}')
+    if index%2==0:
+        print(f'{vetor[index]}')
+
+print('Elementos em posiçoes impares:')
+for index in range(QTDE):
+    
+    if index%2!=0:
+        print(f'{vetor[index]}')
