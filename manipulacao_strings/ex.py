@@ -40,6 +40,6 @@
 # print(f'Sobrenome: {divisao[-1]}')
 
 #Percorrendo Strings
-frase = 'Aula de Python'
-for i in frase:
-    print(i,' ',end='')
+# frase = 'Aula de Python'
+# for i in frase:
+#     print(i,' ',end='')
